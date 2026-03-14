@@ -20,4 +20,4 @@ It doesn't remember the past. It treats every hand as if it's coming from a fres
 
 ### How to Run
 1. Install dependencies: `pip install gymnasium numpy matplotlib seaborn`
-2. Run the training script: `python simple_21.py`
+2. Run the main script: `python main.py`
