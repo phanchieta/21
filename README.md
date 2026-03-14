@@ -15,6 +15,9 @@ The agent uses an **Epsilon-Greedy** strategy:
 ### Results
 After 500,000 episodes, the agent generates a strategy map that closely mirrors "Basic Strategy" used by professional players.
 
+### Limitations
+It doesn't remember the past. It treats every hand as if it's coming from a freshly shuffled infinite deck
+
 ### How to Run
 1. Install dependencies: `pip install gymnasium numpy matplotlib seaborn`
 2. Run the training script: `python simple_21.py`
